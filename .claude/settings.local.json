@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(ls ~/.claude/skills/ 2>/dev/null || echo \"No skills directory\")",
-      "Bash(ls ~/.claude/skills/lark-shared/ 2>/dev/null)",
-      "Bash(cat ~/.claude/skills/lark-shared/SKILL.md 2>/dev/null | head -50)"
-    ]
-  }
-}
